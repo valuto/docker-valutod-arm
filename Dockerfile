@@ -11,7 +11,7 @@ ARG VALUTO_DIR="/valuto"
 ENV VALUTO_DIR $VALUTO_DIR
 ENV VALUTO_DATA_DIR="/valuto-data"
 
-RUN mkdir "$VALUTO_DIR"
+RUN mkdir -p "$VALUTO_DIR"
 
 RUN apt-get update && apt install -y build-essential libboost-all-dev libcurl4-openssl-dev libdb5.3-dev libdb5.3++-dev libminiupnpc-dev libssl-dev
 
