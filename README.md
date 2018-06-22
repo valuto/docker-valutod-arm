@@ -1,4 +1,4 @@
-# docker-valutod
+# docker-valutod-arm
 
 The official docker container for running `valutod` for ARM64 based CPU's (e.g. Raspberry Pi 3).
 
@@ -15,7 +15,7 @@ docker run \
   --publish 40333:40333 \
   --publish 41333:41333 \
   --name valutod \
-   valuto/valutod
+   valuto/valutod-arm
 ```
 
 *Important*:
